@@ -434,6 +434,17 @@
       };
 
       // Write a JavaScript functionality to remove the “twitter” link under the “Elsewhere” section in the aside element. It should happen when the page loads, automatically
+      const sidebar = document.getElementsByClassName("p-4");
+      const ol = document.querySelectorAll("ol");
+      const li = document.querySelectorAll("li");
+
+      const removeTwitter = () => {
+        ol[2].removeChild(li[22]);
+      };
+      removeTwitter();
+      //testing
+      console.log(ol[2]);
+      console.log(li);
 
       // Write a JavaScript functionality to remove the first 50 characters in the first paragraph for every blog post
       // Write a JavaScript functionality to add a new Blog Post (div with title and text)
