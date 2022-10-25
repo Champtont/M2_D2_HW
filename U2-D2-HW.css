@@ -1,0 +1,45 @@
+/*Ex 1*/
+.jumbotron h1 {
+}
+/*Ex 2*/
+nav span {
+}
+/*Ex 3*/
+.jumbotron a:last-child {
+}
+/*Ex 4*/
+.blog-post:nth-child(2) {
+}
+/*Ex 5 ***There is only one hr*/
+.blog-post hr {
+}
+/*Ex 6*/
+nav span:nth-child(even) {
+  color: brown;
+}
+/*Ex 7*/
+.p-4:nth-child(2) > ol li {
+  border: solid 1pt black;
+  margin-bottom: 3px;
+}
+/*Ex 8*/
+.blog-post:nth-child(3) p:nth-child(2) > a {
+  color: coral;
+}
+/*Ex 9*/
+.blog-post ul li:nth-child(2) {
+  color: red;
+}
+/*Ex 10*/
+.mb-3,
+.mr-3 {
+  background-color: coral;
+}
+/*Ex 11*/
+.blog-pagination a:nth-child(2) {
+  color: brown;
+}
+/*EX 12*/
+footer a:last-child {
+  color: brown;
+}
